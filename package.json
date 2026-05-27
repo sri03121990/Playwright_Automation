@@ -1,0 +1,21 @@
+{
+  "name": "PlayWrightAutomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test  --headed",
+    "CucumberRegression": "npx cucumber-js  features/Ecommerce.feature  --tags '@foo' --retry 1  --exit  --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
+    "@playwright/test": "^1.19.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0"
+  }
+}
