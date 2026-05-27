@@ -10,7 +10,7 @@ Before(async function () {
   /*
            Here we are not using test package to import browser or page fixtures.
            Using playwright/chromium package we can import  browser type directly.
-           Using that browser we can create new page.
+           Using that browser we can create new page. xxxxxx
            */
     const browser = await chromium.launch({
             
