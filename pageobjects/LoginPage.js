@@ -1,5 +1,6 @@
 class LoginPage {
 
+    //construtor
 constructor(page)
 {
     this.page = page;
