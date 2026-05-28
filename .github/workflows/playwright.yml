@@ -13,8 +13,7 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: '14.x'
-    - name: install Azure
-      run: npm install @azure/identity
+    
     - name: Install dependencies
       run: npm ci
     - name: Azure logins
