@@ -8,7 +8,7 @@ constructor(page)
     this.password = page.locator("#userPassword");
 
 }
-//login
+//login details
 async goTo()
 {
     await this.page.goto("https://rahulshettyacademy.com/client");
