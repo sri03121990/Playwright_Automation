@@ -5,7 +5,7 @@
 
  test('Client App login', async ({page})=>
  {
-    //js file- Login js, DashboardPage
+    //js file- Login js, DashboardPage commit changes to teja branch
      const email = "anshika@gmail.com";
      const productName = 'Zara Coat 4';
      const products = page.locator(".card-body");
